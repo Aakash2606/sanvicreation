@@ -1,0 +1,290 @@
+/* Base styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+/* Header */
+.main-header {
+  background: #e91e63;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.main-header select {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+/* Navbar */
+.navbar {
+  background: #ad1457;
+  padding: 12px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fce4ec;
+}
+
+.hero-section h2 {
+  color: #ad1457;
+  font-size: 2rem;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 40px 20px;
+  background: #fff0f6;
+}
+
+.gallery img {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  border-color: #ec407a;
+}
+
+/* About and Contact */
+.about-section,
+.contact-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f8bbd0;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-section button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #d81b60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background: #ad1457;
+}
+
+/* WhatsApp and Instagram Floating Buttons */
+.chat-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.whatsapp-chat,
+.instagram-chat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-chat {
+  background: #25d366;
+}
+
+.instagram-chat {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #fce4ec;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #ec407a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial strong {
+  color: #d81b60;
+}
+
+/* Instagram Feed */
+.instagram-feed {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.instagram-feed h2 {
+  margin-bottom: 20px;
+  color: #ad1457;
+}
+
+.instagram-images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.instagram-images img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Newsletter Signup */
+.newsletter {
+  background: #f8bbd0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #d81b60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background: #ad1457;
+}
+
+/* Custom Order Form */
+.custom-order {
+  background: #fce4ec;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.custom-order h2 {
+  color: #d81b60;
+}
+
+.custom-order input,
+.custom-order textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.custom-order button {
+  padding: 10px 20px;
+  background: #d81b60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.custom-order button:hover {
+  background: #ad1457;
+}
+
+/* Footer */
+footer {
+  background: #880e4f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Instagram Section (LightWidget Integration) */
+.instagram-section {
+  padding: 40px 20px;
+  background: #fce4ec;
+  text-align: center;
+}
+
+.instagram-section h2 {
+  font-size: 1.8rem;
+  color: #ad1457;
+  margin-bottom: 20px;
+}
+
+.instagram-section iframe.lightwidget-widget {
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  border: none;
+  overflow: hidden;
+}
+
